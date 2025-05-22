@@ -1,0 +1,506 @@
+[
+
+ 
+    {
+        "content": "“No” in the “Defaulted” column indicates that this data is only collected when share_crew is set to true .",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "share_crew",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "true",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "Users can choose to share their complete telemetry data by enabling the share_crew attribute to True in their crew configurations.\nEnabling share_crew results in the collection of detailed crew and task execution data, including goal , backstory , context , and output of tasks.\nThis enables a deeper insight into usage patterns.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Opt-In Further Telemetry Sharing",
+            "page_number": 4,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "share_crew",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "True",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "share_crew",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "goal",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "backstory",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "context",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "output",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "If you enable share_crew , the collected data may include personal information if it has been incorporated into crew configurations, task descriptions, or outputs.\nUsers should carefully review their data and ensure compliance with GDPR and other applicable privacy regulations before enabling this feature.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "share_crew",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/telemetry",
+            "topic": "​Telemetry",
+            "page_number": 4,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The Patronus evaluation tools enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "Patronus Evaluation Tools",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The Patronus evaluation tools are designed to enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform. These tools provide different levels of control over the evaluation process, from allowing agents to select the most appropriate evaluator and criteria to using predefined criteria or custom local evaluators.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Description",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "There are three main Patronus evaluation tools:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Description",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "To use these tools, you need to install the Patronus package:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Installation",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "uv \\nadd\\n patronus\\n\n",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "uv add patronus",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "You’ll also need to set up your Patronus API key as an environment variable:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Installation",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "export\\n \\nPATRONUS_API_KEY\\n=\\n\"your_patronus_api_key\"\\n\n",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "export PATRONUS_API_KEY=\"your_patronus_api_key\"",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "To effectively use the Patronus evaluation tools, follow these steps:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Steps to Get Started",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "The following example demonstrates how to use the PatronusEvalTool , which allows agents to select the most appropriate evaluator and criteria:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Using PatronusEvalTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusEvalTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from\\n crewai \\nimport\\n Agent\\n,\\n Task\\n,\\n Crew\\n\n\\nfrom\\n crewai_tools \\nimport\\n PatronusEvalTool\\n\n\\n\n\\n# Initialize the tool\\n\n\\npatronus_eval_tool \\n=\\n PatronusEvalTool\\n(\\n)\\n\n\\n\n\\n# Define an agent that uses the tool\\n\n\\ncoding_agent \\n=\\n Agent\\n(\\n\n\\n    role\\n=\\n\"Coding Agent\"\\n,\\n\n\\n    goal\\n=\\n\"Generate high quality code and verify that the output is code\"\\n,\\n\n\\n    backstory\\n=\\n\"An experienced coder who can generate high quality python code.\"\\n,\\n\n\\n    tools\\n=\\n[\\npatronus_eval_tool\\n]\\n,\\n\n\\n    verbose\\n=\\nTrue\\n,\\n\n\\n)\\n\n\\n\n\\n# Example task to generate and evaluate code\\n\n\\ngenerate_code_task \\n=\\n Task\\n(\\n\n\\n    description\\n=\\n\"Create a simple program to generate the first N numbers in the Fibonacci sequence. Select the most appropriate evaluator and criteria for evaluating your output.\"\\n,\\n\n\\n    expected_output\\n=\\n\"Program that generates the first N numbers in the Fibonacci sequence.\"\\n,\\n\n\\n    agent\\n=\\ncoding_agent\\n,\\n\n\\n)\\n\n\\n\n\\n# Create and run the crew\\n\n\\ncrew \\n=\\n Crew\\n(\\nagents\\n=\\n[\\ncoding_agent\\n]\\n,\\n tasks\\n=\\n[\\ngenerate_code_task\\n]\\n)\\n\n\\nresult \\n=\\n crew\\n.\\nkickoff\\n(\\n)\\n\n",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from crewai import Agent, Task, Crew\nfrom crewai_tools import PatronusEvalTool\n \n# Initialize the tool\npatronus_eval_tool = PatronusEvalTool()\n \n# Define an agent that uses the tool\ncoding_agent = Agent(\n    role=\"Coding Agent\",\n    goal=\"Generate high quality code and verify that the output is code\",\n    backstory=\"An experienced coder who can generate high quality python code.\",\n    tools=[patronus_eval_tool],\n    verbose=True,\n)\n \n# Example task to generate and evaluate code\ngenerate_code_task = Task(\n    description=\"Create a simple program to generate the first N numbers in the Fibonacci sequence. Select the most appropriate evaluator and criteria for evaluating your output.\",\n    expected_output=\"Program that generates the first N numbers in the Fibonacci sequence.\",\n    agent=coding_agent,\n)\n \n# Create and run the crew\ncrew = Crew(agents=[coding_agent], tasks=[generate_code_task])\nresult = crew.kickoff()",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The following example demonstrates how to use the PatronusPredefinedCriteriaEvalTool , which uses predefined evaluator and criteria:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Using PatronusPredefinedCriteriaEvalTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusPredefinedCriteriaEvalTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from\\n crewai \\nimport\\n Agent\\n,\\n Task\\n,\\n Crew\\n\n\\nfrom\\n crewai_tools \\nimport\\n PatronusPredefinedCriteriaEvalTool\\n\n\\n\n\\n# Initialize the tool with predefined criteria\\n\n\\npatronus_eval_tool \\n=\\n PatronusPredefinedCriteriaEvalTool\\n(\\n\n\\n    evaluators\\n=\\n[\\n{\\n\"evaluator\"\\n:\\n \\n\"judge\"\\n,\\n \\n\"criteria\"\\n:\\n \\n\"contains-code\"\\n}\\n]\\n\n\\n)\\n\n\\n\n\\n# Define an agent that uses the tool\\n\n\\ncoding_agent \\n=\\n Agent\\n(\\n\n\\n    role\\n=\\n\"Coding Agent\"\\n,\\n\n\\n    goal\\n=\\n\"Generate high quality code\"\\n,\\n\n\\n    backstory\\n=\\n\"An experienced coder who can generate high quality python code.\"\\n,\\n\n\\n    tools\\n=\\n[\\npatronus_eval_tool\\n]\\n,\\n\n\\n    verbose\\n=\\nTrue\\n,\\n\n\\n)\\n\n\\n\n\\n# Example task to generate code\\n\n\\ngenerate_code_task \\n=\\n Task\\n(\\n\n\\n    description\\n=\\n\"Create a simple program to generate the first N numbers in the Fibonacci sequence.\"\\n,\\n\n\\n    expected_output\\n=\\n\"Program that generates the first N numbers in the Fibonacci sequence.\"\\n,\\n\n\\n    agent\\n=\\ncoding_agent\\n,\\n\n\\n)\\n\n\\n\n\\n# Create and run the crew\\n\n\\ncrew \\n=\\n Crew\\n(\\nagents\\n=\\n[\\ncoding_agent\\n]\\n,\\n tasks\\n=\\n[\\ngenerate_code_task\\n]\\n)\\n\n\\nresult \\n=\\n crew\\n.\\nkickoff\\n(\\n)\\n\n",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from crewai import Agent, Task, Crew\nfrom crewai_tools import PatronusPredefinedCriteriaEvalTool\n \n# Initialize the tool with predefined criteria\npatronus_eval_tool = PatronusPredefinedCriteriaEvalTool(\n    evaluators=[{\"evaluator\": \"judge\", \"criteria\": \"contains-code\"}]\n)\n \n# Define an agent that uses the tool\ncoding_agent = Agent(\n    role=\"Coding Agent\",\n    goal=\"Generate high quality code\",\n    backstory=\"An experienced coder who can generate high quality python code.\",\n    tools=[patronus_eval_tool],\n    verbose=True,\n)\n \n# Example task to generate code\ngenerate_code_task = Task(\n    description=\"Create a simple program to generate the first N numbers in the Fibonacci sequence.\",\n    expected_output=\"Program that generates the first N numbers in the Fibonacci sequence.\",\n    agent=coding_agent,\n)\n \n# Create and run the crew\ncrew = Crew(agents=[coding_agent], tasks=[generate_code_task])\nresult = crew.kickoff()",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The following example demonstrates how to use the PatronusLocalEvaluatorTool , which uses custom function evaluators:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Using PatronusLocalEvaluatorTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusLocalEvaluatorTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from\\n crewai \\nimport\\n Agent\\n,\\n Task\\n,\\n Crew\\n\n\\nfrom\\n crewai_tools \\nimport\\n PatronusLocalEvaluatorTool\\n\n\\nfrom\\n patronus \\nimport\\n Client\\n,\\n EvaluationResult\\n\n\\nimport\\n random\\n\n\\n\n\\n# Initialize the Patronus client\\n\n\\nclient \\n=\\n Client\\n(\\n)\\n\n\\n\n\\n# Register a custom evaluator\\n\n\\n@client\\n.\\nregister_local_evaluator\\n(\\n\"random_evaluator\"\\n)\\n\n\\ndef\\n \\nrandom_evaluator\\n(\\n**\\nkwargs\\n)\\n:\\n\n\\n    score \\n=\\n random\\n.\\nrandom\\n(\\n)\\n\n\\n    \\nreturn\\n EvaluationResult\\n(\\n\n\\n        score_raw\\n=\\nscore\\n,\\n\n\\n        pass_\\n=\\nscore \\n>=\\n \\n0.5\\n,\\n\n\\n        explanation\\n=\\n\"example explanation\"\\n,\\n\n\\n    \\n)\\n\n\\n\n\\n# Initialize the tool with the custom evaluator\\n\n\\npatronus_eval_tool \\n=\\n PatronusLocalEvaluatorTool\\n(\\n\n\\n    patronus_client\\n=\\nclient\\n,\\n\n\\n    evaluator\\n=\\n\"random_evaluator\"\\n,\\n\n\\n    evaluated_model_gold_answer\\n=\\n\"example label\"\\n,\\n\n\\n)\\n\n\\n\n\\n# Define an agent that uses the tool\\n\n\\ncoding_agent \\n=\\n Agent\\n(\\n\n\\n    role\\n=\\n\"Coding Agent\"\\n,\\n\n\\n    goal\\n=\\n\"Generate high quality code\"\\n,\\n\n\\n    backstory\\n=\\n\"An experienced coder who can generate high quality python code.\"\\n,\\n\n\\n    tools\\n=\\n[\\npatronus_eval_tool\\n]\\n,\\n\n\\n    verbose\\n=\\nTrue\\n,\\n\n\\n)\\n\n\\n\n\\n# Example task to generate code\\n\n\\ngenerate_code_task \\n=\\n Task\\n(\\n\n\\n    description\\n=\\n\"Create a simple program to generate the first N numbers in the Fibonacci sequence.\"\\n,\\n\n\\n    expected_output\\n=\\n\"Program that generates the first N numbers in the Fibonacci sequence.\"\\n,\\n\n\\n    agent\\n=\\ncoding_agent\\n,\\n\n\\n)\\n\n\\n\n\\n# Create and run the crew\\n\n\\ncrew \\n=\\n Crew\\n(\\nagents\\n=\\n[\\ncoding_agent\\n]\\n,\\n tasks\\n=\\n[\\ngenerate_code_task\\n]\\n)\\n\n\\nresult \\n=\\n crew\\n.\\nkickoff\\n(\\n)\\n\n",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "from crewai import Agent, Task, Crew\nfrom crewai_tools import PatronusLocalEvaluatorTool\nfrom patronus import Client, EvaluationResult\nimport random\n \n# Initialize the Patronus client\nclient = Client()\n \n# Register a custom evaluator\n@client.register_local_evaluator(\"random_evaluator\")\ndef random_evaluator(**kwargs):\n    score = random.random()\n    return EvaluationResult(\n        score_raw=score,\n        pass_=score >= 0.5,\n        explanation=\"example explanation\",\n    )\n \n# Initialize the tool with the custom evaluator\npatronus_eval_tool = PatronusLocalEvaluatorTool(\n    patronus_client=client,\n    evaluator=\"random_evaluator\",\n    evaluated_model_gold_answer=\"example label\",\n)\n \n# Define an agent that uses the tool\ncoding_agent = Agent(\n    role=\"Coding Agent\",\n    goal=\"Generate high quality code\",\n    backstory=\"An experienced coder who can generate high quality python code.\",\n    tools=[patronus_eval_tool],\n    verbose=True,\n)\n \n# Example task to generate code\ngenerate_code_task = Task(\n    description=\"Create a simple program to generate the first N numbers in the Fibonacci sequence.\",\n    expected_output=\"Program that generates the first N numbers in the Fibonacci sequence.\",\n    agent=coding_agent,\n)\n \n# Create and run the crew\ncrew = Crew(agents=[coding_agent], tasks=[generate_code_task])\nresult = crew.kickoff()",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The PatronusEvalTool does not require any parameters during initialization. It automatically fetches available evaluators and criteria from the Patronus API.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​PatronusEvalTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusEvalTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The PatronusPredefinedCriteriaEvalTool accepts the following parameters during initialization:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​PatronusPredefinedCriteriaEvalTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusPredefinedCriteriaEvalTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "[{\"evaluator\": \"judge\", \"criteria\": \"contains-code\"}]",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "The PatronusLocalEvaluatorTool accepts the following parameters during initialization:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​PatronusLocalEvaluatorTool",
+            "page_number": 5,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "PatronusLocalEvaluatorTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/patronustools",
+            "topic": "​Patronus Evaluation Tools",
+            "page_number": 5,
+            "type": "code_block"
+        }
+    },
+    {
+    
+        "content": "Tasks are the driving force behind the actions of agents in CrewAI.\nBy properly defining tasks and their outcomes, you set the stage for your AI agents to work effectively, either independently or as a collaborative unit.\nEquipping tasks with appropriate tools, understanding the execution process, and following robust validation practices are crucial for maximizing CrewAI’s potential,\nensuring agents are effectively prepared for their assignments and that tasks are executed as intended.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/concepts/tasks",
+            "topic": "​Conclusion",
+            "page_number": 9,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "The SerperDevTool is designed to search the internet and return the most relevant results.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "Google Serper Search",
+            "page_number": 10,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "SerperDevTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "Google Serper Search",
+            "page_number": 10,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "SerperDevTool",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "​SerperDevTool",
+            "page_number": 10,
+            "type": "code_block"
+        }
+    },
+    {
+        "content": "We are still working on improving tools, so there might be unexpected behavior or changes in the future.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "​SerperDevTool",
+            "page_number": 10,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "This tool is designed to perform a semantic search for a specified query from a text’s content across the internet. It utilizes the serper.dev API\nto fetch and display the most relevant search results based on the query provided by the user.",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "​Description",
+            "page_number": 10,
+            "type": "paragraph"
+        }
+    },
+    {
+        "content": "To incorporate this tool into your project, follow the installation instructions below:",
+        "meta_data": {
+            "web_site_name": "docs.crewai.com",
+            "web_page_url": "https://docs.crewai.com/tools/serperdevtool",
+            "topic": "​Installation",
+            "page_number": 10,
+            "type": "paragraph"
+        }
+    }
+ 
+]

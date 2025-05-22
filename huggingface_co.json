@@ -1,0 +1,2279 @@
+[
+    {
+        "content": "We have trained a model to evaluate if a paraphrase is a semantic variation to the input query or just a surface level variation. Data augmentation by adding Surface level variations does not add much value to the NLP model training. if the approach to paraphrase generation is \"OverGenerate and Rank\" , Its important to have a robust model of scoring/ ranking paraphrases. NLG Metrics like bleu ,BleuRT, gleu , Meteor have not proved very effective in scoring paraphrases.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/Ashishkr/paraphrase_diversity_ranker",
+            "topic": "Ashishkr/paraphrase_diversity_rankerlike2",
+            "page_number": 1
+        }
+    },
+    {
+        "content": "For more robust results, filter out the paraphrases which are not semantically \nsimilar using a model trained on NLI, STS task and then apply the ranker .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/Ashishkr/paraphrase_diversity_ranker",
+            "topic": "Ashishkr/paraphrase_diversity_rankerlike2",
+            "page_number": 1
+        }
+    },
+    {
+        "content": "openbmb/Ultra-FineWeb Updated 13 days ago • 12k • 103",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets",
+            "topic": "openbmb/Ultra-FineWeb",
+            "page_number": 2
+        }
+    },
+    {
+        "content": "Temporary error. Please try again.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/join",
+            "topic": "Let's confirm you are human",
+            "page_number": 3
+        }
+    },
+    {
+        "content": "Before proceeding to your request, you need to solve a puzzle, and the puzzle requires Google Translate to be disabled. Please disable Google Translate and retry.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/join",
+            "topic": "Let's confirm you are human",
+            "page_number": 3
+        }
+    },
+    {
+        "content": "Complete the security check before continuing. This step verifies that you are not a bot, which helps to protect your account and prevent spam.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/join",
+            "topic": "Let's confirm you are human",
+            "page_number": 3
+        }
+    },
+    {
+        "content": "and get access to the augmented documentation experience",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Inference Providers",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "Hugging Face’s Inference Providers give developers streamlined, unified access to hundreds of machine learning models, powered by our serverless inference partners. This new approach builds on our previous Serverless Inference API, offering more models, improved performance, and greater reliability thanks to world-class providers.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Inference Providers",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "To learn more about the launch of Inference Providers, check out our announcement blog post .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Inference Providers",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "Here is the complete list of partners integrated with Inference Providers, and the supported tasks for each of them:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Partners",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "Inference Providers offers a fast and simple way to explore thousands of models for a variety of tasks. Whether you’re experimenting with ML capabilities or building a new application, this API gives you instant access to high-performing models across multiple domains:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Why use Inference Providers?",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "⚡ Fast and Free to Get Started : Inference Providers comes with a free-tier and additional included credits for PRO users , as well as Enterprise Hub organizations .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Why use Inference Providers?",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "To get started quickly with Chat Completion models , use the Inference Playground to easily test and compare models with your prompts.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Inference Playground",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "You can use Inference Providers with your preferred tools, such as Python, JavaScript, or cURL. To simplify integration, we offer both a Python SDK ( huggingface_hub ) and a JavaScript SDK ( huggingface.js ).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Get Started",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "In this section, we will demonstrate a simple example using deepseek-ai/DeepSeek-V3-0324 , a conversational Large Language Model. For the example, we will use Novita AI as Inference Provider.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Get Started",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "You can also automatically select a provider for a model using provider=\"auto\" — it will pick the first available provider for your model based on your preferred order set in https://hf.co/settings/inference-providers .\nThis is the default if you don’t specify a provider in our Python or JavaScript SDK.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Inference Providers",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "Inference Providers requires passing a user token in the request headers. You can generate a token by signing up on the Hugging Face website and going to the settings page . We recommend creating a fine-grained token with the scope to Make calls to Inference Providers .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Authentication",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "For more details about user tokens, check out this guide .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Authentication",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "Let’s start with a cURL command highlighting the raw HTTP request. You can adapt this request to be run with the tool of your choice.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "cURL",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "In Python, you can use the requests library to make raw requests to the API:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Python",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "For convenience, the Python library huggingface_hub provides an InferenceClient that handles inference for you. Make sure to install it with pip install huggingface_hub .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Python",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "In JS, you can use the fetch library to make raw requests to the API:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "JavaScript",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "For convenience, the JS library @huggingface/inference provides an InferenceClient that handles inference for you. You can install it with npm install @huggingface/inference .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "JavaScript",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "In this introduction, we’ve covered the basics of Inference Providers. To learn more about this service, check out our guides and API Reference:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs/inference-providers",
+            "topic": "Next Steps",
+            "page_number": 4
+        }
+    },
+    {
+        "content": "cross-encoder/ms-marco-MiniLM-L6-v2 Text Ranking • Updated Apr 15 • 2.98M • 98",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/tasks/text-ranking",
+            "topic": "cross-encoder/ms-marco-MiniLM-L6-v2",
+            "page_number": 5
+        }
+    },
+    {
+        "content": "google/gemma-3n-E4B-it-litert-preview Image-Text-to-Text • Updated 1 day ago • 294",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/models",
+            "topic": "google/gemma-3n-E4B-it-litert-preview",
+            "page_number": 6
+        }
+    },
+    {
+        "content": "Ashishkr / paraphrase_diversity_ranker like 2 Text Ranking sentence-transformers PyTorch JAX roberta salesken License: apache-2.0 Model card Files Files and versions Community 2 Use this model New discussion New pull request Resources PR & discussions documentation Code of Conduct Hub documentation All Discussions Pull requests View closed (1) Sort: \n\t\tRecently created Adding `safetensors` variant of this model #1 opened 3 months ago\n\t\tby SFconvertbot",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/Ashishkr/paraphrase_diversity_ranker/discussions",
+            "topic": "Ashishkr/paraphrase_diversity_rankerlike2",
+            "page_number": 7
+        }
+    },
+    {
+        "content": "Users and organizations already use the Hub as a collaboration platform, we’re making it easy to seamlessly and scalably launch ML compute directly from the Hub.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Leveling up AI collaboration and compute.",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Deploy models on fully managed infrastructure",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Inference Endpoints",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Need support to accelerate AI in your organization? View our Expert Support .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Leveling up AI collaboration and compute.",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "The HF Hub is the central place to explore, experiment, collaborate and build technology with Machine\n\t\t\t\t\tLearning. Join the open source Machine Learning movement!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Hugging Face Hub",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Packed with ML features, like model eval, dataset viewer and much more.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Create with ML",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Git based and designed for collaboration at its core.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Collaborate",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Learn by experimenting and sharing with our awesome community.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Play and learn",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Share your work with the world and build your own ML profile.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Build your ML portfolio",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Spaces are one of the most popular ways to share ML applications and demos with the world. Upgrade your Spaces with our selection of custom on-demand hardware:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Spaces Hardware",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "All Spaces get ephemeral storage for free but you can upgrade and add persistent storage at any time.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Spaces Hardware",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Building something cool as a side project? We also offer community GPU grants.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Spaces Hardware",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Inference Endpoints (dedicated) offers a secure production solution to easily deploy any ML model on dedicated\n\t\t\t\t\tand autoscaling infrastructure, right from the HF Hub.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Inference Endpoints",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "A monthly subscription to access powerful features.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "ZeroGPU : Get 5x usage quota and highest GPU queue priority",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Spaces Hosting : Create ZeroGPU Spaces with H200 hardware",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Spaces Dev Mode : Fast iterations via SSH/VS Code for Spaces",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Inference Providers : Get $2 included credits across all Inference Providers",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Dataset Viewer : Activate it on private datasets",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Blog Articles : Publish articles to the Hugging Face blog",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Social Posts : Share short updates with the community",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "Features Preview : Get early access to upcoming\n\t\t\t\t\t\t\t\t\t\tfeatures",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "PRO Badge :\n\t\t\t\t\t\t\t\t\t\tShow your support on your profile",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/pricing",
+            "topic": "Pro Account",
+            "page_number": 8
+        }
+    },
+    {
+        "content": "🗓 Effective Date: March 28, 2023",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We have implemented this Privacy Policy because your privacy is important to us. This Privacy Policy (the “Policy”) describes the type of information that Hugging Face, Inc. (the “Company”) gathers from users of the Hugging Face services (the “Services”), and how the Company uses that information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Policy is part of the Company Terms of Use. The Policy applies to all users of the Services (“Users”).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company occasionally collects Personal Information from Users. “Personal Information” means any information that can, alone or associated with other information, be used to identify an individual, for instance by reference of a name, a username, an email address, an IP address, a photograph or others.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "By using the Services, you consent to the terms of the Policy and to our processing of Personal Information in the manner and for the purposes set forth herein. If you do not agree with the Policy, please do not use the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company reserves the right, at its sole discretion, to change the Policy at any time, which change will be effective 10 days following posting the revision to the Policy on the Hugging Face website (the “Website”). Your continued use of the Services 10 days following such posting means you accept those changes.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company collects the following information, some of which might be Personal Information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "1. INFORMATION WE COLLECT",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company collects information directly provided by Users as part of using the Services, such as:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Information you provide directly",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "At any time during your use of the Services, you may decide to share some information or content publicly or privately.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Information you provide directly",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you decide to share your information or content publicly, and if you decide to include Personal Information, you understand that anyone may view this information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Information you provide directly",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you decide to keep your information private and control the access to it, you understand that only the users that you authorize will view this information. The Company also reserves the right to access this information with your consent, or without your consent only for the purposes of pursuing legitimate interests such as maintaining security on its Services or complying with any legal or regulatory obligations.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Information you provide directly",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We may collect Information from third parties that help us deliver the Services or process information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Information we collect from third parties",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company automatically records information from your use of the Services such as:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "C. Information we automatically collect from your use of the Services",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We use cookies only for the purposes of delivering, updating, monitoring, improving the Services, and maintaining security on our Services by detecting, preventing and responding to any type of threats or incidents.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "D. Cookies",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We may collect Information through those cookies. If you do not wish to accept these cookies and you decide to disable them, you will not be able to access and use the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "D. Cookies",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "On September 27, 2013, California enacted A.B. 370, amending the California Online Privacy Protection Act to require website operators to disclose how they respond to \"Do Not Track Signals\"; and whether third parties collect personally identifiable information about users when they use online services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "E. “Do Not Track”",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company honors \"do not track\" signals and does not track, use cookies, or use advertising when a “do not track” mechanism is in place.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "E. “Do Not Track”",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company does not authorize the collection of personally identifiable information from our users for third party use through advertising technologies without separate member consent.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "E. “Do Not Track”",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "California Civil Code Section 1798.83 also permits customers who are California residents to request certain information regarding Our disclosure of Personal Information to third parties for direct marketing purposes. To make such a request, please send an email to privacy@huggingface.co . Please note that the Company is only required to respond to one request per customer each year.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "E. “Do Not Track”",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company may use information from Users for the following purposes:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Purposes of the use of Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Pursuant to applicable data protection laws, and especially the European Union’s General Data Protection Regulation (EU) 2016/679 (the “GDPR”), Hugging Face remains under an obligation to notify the Users about the legal basis on which their Personal Information is processed.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Grounds for the use of Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "By creating an account on the Website and by using the Services, you consent to disclose information, some of which might be personal, and to our processing of such Personal Information in the manner and for the purposes set forth in this Policy.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Grounds for the use of Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you or your organization enter into an agreement with Hugging Face, either by simply using the Services and abiding by the terms and conditions available on the Website, or by executing another separate agreement, you also consent to our processing of your Personal Information as pursuant the obligations of such an agreement.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Grounds for the use of Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Apart from the above cases, Hugging Face will use the information collected from you to pursue legitimate interests such as legal or regulatory compliance, security control, business operations, scientific research, or any other interest reasonably held as legitimate.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "Hugging Face Privacy Policy",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company will not sell, rent or lease your Personal Information except as provided for by this Policy. The Company may also share other information as provided by this Policy.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "3. SHARING OF INFORMATION",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company may share User Information and Personal information collected by the Services with businesses that are legally part of the same group as the Company, or that become part of that group in the event of a change of control, merger, acquisition or sale (“Affiliates”).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Affiliates",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company may occasionally hire other companies to provide limited services on its behalf, such as providing customer support, hosting websites, processing transactions, or performing statistical analysis of its Services. Those companies will be permitted to obtain only the Personal Information they need to deliver the relevant service. They will be required to maintain the confidentiality of the information and are prohibited from using it for any other purpose. Please refer to the list of Third Party Service Providers below.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Third Party Service Providers",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "At any time during your use of the Services, or upon explicit request from us, you may consent to the disclosure of your information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "C. With your consent",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "In the event of any fraud, security threats or incidents, we reserve the right to disclose your information without your consent for the purposes of ensuring and maintaining security on our Website and for all of our Users, and detecting, preventing, investigating or otherwise addressing fraud or security issues.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "D. For security and safety purposes",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Similarly, we reserve the right to disclose your information without your consent for the purpose of protecting against harm to the rights, property or safety of the Company, our Users, yourself or the public.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "D. For security and safety purposes",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We also reserve the right to disclose your information without your consent to comply with any applicable law, regulation, legal process or governmental requests.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "E. For legal or regulatory purposes",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company may use Anonymous Information (as defined below) or disclose it to third party service providers, to provide and improve the Services and other products or technologies of the Company. The Company may disclose Anonymous Information (with or without compensation) to third parties, including advertisers and partners, for purposes including, but not limited to, targeting advertisements. \"Anonymous Information\" means information which does not enable identification of an individual User, such as aggregated information about use of the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "G. Anonymous Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "You may be entitled under data protection laws to access and review Personal Information the Company holds related to you.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Access your Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "You may access, modify or delete the Information we collected by editing your profile or controlling the content that you share at any time.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Access your Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you have any other request, all such communications regarding access to Personal Information should be addressed to: privacy@huggingface.co . Such inquiries should be clearly marked as data protection queries and you should indicate if the request is time sensitive.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "A. Access your Information",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We retain your Information for as long as necessary to deliver the Services, to comply with any applicable legal requirements, to maintain security and prevent incidents and, in general, to pursue our legitimate interests.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Data retention",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "You may decide to cancel your account and your content at any time by editing your profile. If you wish to request the erasure of all of your Personal Information that we process, you may do so by sending a written request to privacy@huggingface.co .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "B. Data retention",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The security of your Personal Information is important to us. The Company follows generally accepted industry standards, including the use of appropriate administrative, physical and technical safeguards, to protect Personal Information. However, no method of transmission over the Internet, or method of electronic storage, is fully secure. Therefore, while the Company strives to use commercially acceptable means to protect Personal Information, the Company cannot guarantee its absolute security or confidentiality. If you have any questions about security, you can contact the Company at privacy@huggingface.co .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "5. DATA SECURITY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "In the event of an incident affecting your Personal Information, we will act promptly acceptable means to identify and address the incident, and to notify you.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "5. DATA SECURITY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Please be aware that certain Personal Information and other information provided by you in connection with your use of the Services may be stored on your device (even if that Information is not collected by the Company). You are solely responsible for maintaining the security of your device from unauthorized access. Similarly, you also remain responsible for maintaining the confidentiality of your password or any other information that should reasonably be held confidential.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "5. DATA SECURITY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company and its servers are located in the United States.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "6. LOCATION OF PROCESSING AND DATA TRANSFERS",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Personal Information collected by the Services may be stored and processed in the United States or any other country in which the Company or its affiliates, subsidiaries or agents maintain facilities. By using the Services, you consent to any such transfer of information outside of your country. The Company may transfer your Personal Information to affiliated companies for the purpose of storing or processing such information on its behalf. Such information may be transferred to other countries around the world. The Company requires that these parties agree to process such information in compliance with the Policy.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "6. LOCATION OF PROCESSING AND DATA TRANSFERS",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "In particular, if you provide Personal Information, it may be transferred to and processed on computers in the U.S. and other countries. We strive to take appropriate safeguards to ensure that your Personal Information will remain protected in a manner consistent with standard applicable data protection laws.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "6. LOCATION OF PROCESSING AND DATA TRANSFERS",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you have any other question, please contact the Company at: privacy@huggingface.co .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "6. LOCATION OF PROCESSING AND DATA TRANSFERS",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Services are neither directed to nor structured to attract children under the age of 13 years. Accordingly, the Company does not intend to collect Personal Information from anyone it knows to be under 13 years of age. The Company will direct potential users under 13 years of age not to use the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "7. CHILDREN’S PRIVACY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If the Company learns that Personal Information of persons less than 13 years of age has been collected without verifiable parental consent, the Company will take the appropriate steps to delete this information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "7. CHILDREN’S PRIVACY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "To make such a request, please contact the Company at: privacy@huggingface.co .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "7. CHILDREN’S PRIVACY",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company may collect your email address in order to send information and respond to inquiries and/or other requests or questions.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "8. COMMUNICATIONS AND CAN-SPAM ACT",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The Company does not use false or misleading subjects or email addresses. The Company reasonably identifies advertisements and includes in its communications the physical address of its business location. The Company honors opt-out/unsubscribe requests. Users may follow the instructions at the bottom of an email from the Company in order to unsubscribe from correspondence.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "8. COMMUNICATIONS AND CAN-SPAM ACT",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "If you have questions about this Policy, please contact privacy@huggingface.co .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "9. CONTACT US",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "The main establishment in the European Union is Hugging Face, SAS, a French société par actions simplifiée à associé unique registered in the Paris Trade and Companies Register under the number 822 168 043, and whose headquarters are located on 9 rue des Colonnes, 75002 Paris, France. The designation of this main establishment in the European Union gives full authority to the French Data Protection Agency, la Commission Nationale de l'Informatique et des Libertés (CNIL) per the General Data Protection Regulation (GDPR).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "9. CONTACT US",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "We may share your information with Third-Party Service Providers, and when we do, we ensure that they access your information in compliance with applicable data protection laws. The following list respects the format Subprocessor | Description of Subprocessing | Location of Subprocessing .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/privacy",
+            "topic": "10. LIST OF THIRD-PARTY SERVICE PROVIDERS",
+            "page_number": 9
+        }
+    },
+    {
+        "content": "Don't have an account? Sign Up",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/login",
+            "topic": "Log In",
+            "page_number": 10
+        }
+    },
+    {
+        "content": "SSO is available for Enterprise accounts.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/login",
+            "topic": "Log In",
+            "page_number": 10
+        }
+    },
+    {
+        "content": "google/gemma-3n-E4B-it-litert-preview Updated 1 day ago • 294",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/",
+            "topic": "google/gemma-3n-E4B-it-litert-preview",
+            "page_number": 11
+        }
+    },
+    {
+        "content": "🗓 Effective Date: September 15, 2022",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Thanks for using Hugging Face and being part of our awesome community! 🤗",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We drafted the following Terms of Service to make your user experience as smooth, private and secure as possible. We are very much open to feedback - contact us at legal@huggingface.co with any question or concern!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Please read these Terms carefully as they contain important information about what we do and do not offer, and what you can and cannot do.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Whenever you want to use or purchase the Services that we provide at https://huggingface.co and related sites (the \"Website\"), these Terms of Service, together with our Supplemental Terms, notices and policies available at https://huggingface.co , and/or any other binding document that we provide and/or that you sign (the “Terms” or the “Agreement” ) will apply to you.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "In other words, these Terms are a binding agreement between us, Hugging Face, Inc . a Delaware corporation (\"Hugging Face\", \"Company\", \"us\", \"we\"), and You , whether you are a user (\"User\", \"You\") or a customer (\"Customer\", \"you\"). You should also carefully review all of our other policies available on our Website, including our Privacy Policy .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "By accessing, using or purchasing the Services, you consent to all of these Terms and policies. So, if you do not agree with any of those, please do not access, use or purchase the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We may change or update the Terms from time to time. Changes will be effective 10 days following posting on the Website. If you continue using the Services 10 days following such posting, that means you accept those changes.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We may also post and update supplemental terms for specific Services (\"Supplemental Terms\"), and such Supplemental Terms will also apply to you.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Let's make sure we speak the same language!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📚 A few definitions",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Account \" is the account that you, or your entity, will create on the Website to access, use or purchase our Services. It must be secured by a strong password!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📚 A few definitions",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Agreement \" or \" Terms \" refer to all of the terms and conditions that apply between us. They include these Terms, Supplemental Terms, notices and policies available at https://huggingface.co , and/or any other binding document that we provide and/or that you sign, including but not limited to an Order Form, a Scope of Work or a Master Services Agreement.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📚 A few definitions",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Inference API \" refers to hosted services available on https://huggingface.co that let you, individuals, companies or organizations, run inference via application programming interface on machine learning models publicly or privately hosted on Hugging Face's model hub.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📚 A few definitions",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Content \" refers to any material posted, displayed, or accessed on our Website or Hub, including but not limited to code, data, text, graphics, images, applications, or software you, we, or any third party provide or make available.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📚 A few definitions",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Dataset \" refers to a structured collection of data samples used to train machine learning Models.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Effective Date \" refers to the last date of signature of the Agreement, or any other binding document.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Inference Endpoint Service \" refers to the Hugging Face Hub service through which the Customer can create, edit, manage and delete Managed Endpoints.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Hugging Face \" refers to Hugging Face Inc., which may perform its obligations through its affiliates, directors, subsidiaries, contractors, licensors, officers, agents and/or employees.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Hugging Face Hub \", or \"Hub\" refers to the hosting platform where Users can build, benchmark, share, version and deploy Repositories, which may include Models, Datasets and Machine Learning Applications.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Hugging Face Open-Source Libraries \" refers to the Hugging Face open-source software projects available at https://github.com/huggingface/ , including Transformers, Datasets and Tokenizers.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Infinity Service \" refers to the containerized solution to deploy end-to-end optimized inference pipelines for state of the art Transformers Models, available at https://huggingface.co/infinity .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Machine Learning Application \" refers to a repository hosted on the Hub that allows a User to showcase Machine Learning experiments.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Model \" refers to a pre-trained machine learning model including algorithms and weights, which can be run to make predictions.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Order Form \" refers to the document shared by Hugging Face to the Customer describing the quantity of services ordered by the Customer and the fees payable for such services. Additional Order Forms may be negotiated between and executed by the Parties, and shall be incorporated into the Agreement.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Organization \" refers to a workspace representing a legal entity and/or several Users. A User can be part of multiple organizations.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Premium Support \" refers to qualified information or any other materials provided by Hugging Face via email or any other instant messaging or communication service to the Customer to address the Customer’s questions on the use and optimization of the Hugging Face Open-Source Libraries, Hugging Face or Customer Models.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\"Repository\" refers to a data structure which contains all of the project files and the entire revision history. A Repository may be public (i.e. anyone on the internet can see it, but only you or members of your organization can make changes) or private (i.e. only you or members of your organization can see and make changes to the repository).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" Services \" refer to the products and/or services we offer or provide, and that you access, use or purchase. Services may include limited licenses or subscriptions to access or use certain offerings in accordance with these Terms, including use of Models, Datasets, Hugging Face Open-Sources Libraries, the Inference API, AutoTrain, Expert Support, Infinity or other Content. Reference to \"purchases\" and/or \"sales\" mean a limited right to access and use a Service (not a transfer or any ownership right, title, or interest) in accordance with these Terms.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "\" User \" refers to the individual person, company or organization that accesses, receives, or uses the Services. That's you!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Here are the Services we offer, and how you should use them.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍💻 Your Use of the Services",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We provide Services in the field of machine learning, here is the list:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍💻 Your Use of the Services",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Open-Source Libraries : including Transformers, Datasets and Tokenizers",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Hugging Face public Hub : where you can build, benchmark, share, version and deploy Models, Datasets and Machine Learning Applications accessible by all Users",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Hugging Face private Hub : where you can build, benchmark, share, version and deploy Models, Datasets and Machine Learning Applications, that are only accessible by You or your Organization(s)",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Inference API Service : where you or your organization(s) can run inference via application programming interface on machine learning models publicly or privately hosted on our Model Hub",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "AutoTrain premium Service : create state of the art Models from your own training data, everything being automatically hosted privately on the Model Hub. You can then share them publicly and/or serve them through the Inference API Service for example.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Expert Support : get Premium Support on the use of our open source and all our services and/or products.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Infinity Service : deploy end-to-end optimized inference pipelines for state of the art Transformers Models.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Hardware Partner Program : access State of the Art hardware and hardware-specific machine learning optimization techniques for production performance.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Inference Endpoints : easily deploy machine learning models on dedicated, secure and autoscaling infrastructure",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "🔜 More awesome Services. Stay tuned!! 🚀",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍💻 Your Use of the Services",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You must use our Services in strict compliance with these Terms, the Supplemental Terms for each Service, all of our policies available on our Website, and all applicable laws or regulations in the relevant jurisdiction(s).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍💻 Your Use of the Services",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We may at any time modify , suspend , or discontinue , temporarily or permanently, the Services (or any part thereof) with or without notice. You agree that we will not be liable to you or to any third party for any modification, suspension or discontinuance of the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Pretty basic, but necessary before accessing some of our Services!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👤 Your Account",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "In order to create an Account for yourself or for your Organization on our Website, you must be a natural person of at least age 13 , or a legal entity duly registered . If you decide to create an Account for your Organization, you represent that you have the authority to act on behalf of your Organization and bind your Organization to these Terms.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👤 Your Account",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "When you create your Account, we are going to ask you to provide us with some basic information , such as your email address password, username, full name, and other optional information such as an avatar, your interests, usernames to your third-party social networks, or payment information if you decide to purchase one of our paid Services. All information must be accurate and valid .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👤 Your Account",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "🔒Security is very important to us, and we need every member of our community to cooperate. You are responsible for maintaining the confidentiality and security of your password necessary for accessing your Account and the Services. You may not disclose your password to any third party, and you are solely responsible for any action taken with your Account. You must notify us immediately of any actual or suspected breach of security on your Account, loss or compromise of password, or unauthorized use of your Account.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👤 Your Account",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Wondering about what we do with your Content?",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💬 Your Content",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You are solely responsible for the Content you post , publish, display or otherwise make available on our Website, and for any other action or omission that results from your use of the Services (including our Content or other user's Content), or the use by a person or an entity that you have authorized under your Account.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💬 Your Content",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You represent and warrant that you have ownership, control, and responsibility for the Content you post or otherwise make available on our Website, or otherwise have the right to do so. Your Content must not be misleading or unlawful, and must not violate any of these Terms, applicable law and regulation, or infringe or misappropriate any rights of any person or entity. We may remove your Content at any time, at our sole discretion, if we have a concern about your Content.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💬 Your Content",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You own the Content you create ! We will not sell your Content, nor will we use it in any other way as permitted under these Terms. However, by posting your Content or otherwise making it available on our Website, you must be aware that:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💬 Your Content",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You hereby grant us a worldwide, royalty-free and non-exclusive license to use, display, publish, reproduce, distribute, and make derivative works of such Content to provide Services and as otherwise permitted under these Terms and our Privacy Policy; and,",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Your Content will be viewed by others, and therefore:",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "When Content contains notice of a reasonable and customary license , (such as an open source license) such Content is intended to remain under the terms of such license when further accessed, distributed, or used. Neither party is permitted to remove reference to any such license.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Any Content you download, access or use from us or another User, is at your own risk and subject to these Terms and/or the terms accompanying such Content.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We work hard to make our Services most useful to you, and we thank you for your trust and support!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💰 Payment",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Our plans and fees payable for the use of the Services you decide to purchase are available at https://huggingface.co/pricing . You may decide to choose a custom plan , in which case the payable fees and payment terms will be subject to further discussions and mutual agreement with us, and will be specified in the applicable Services Agreement, Order Form or any other binding document signed between us.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💰 Payment",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "All fees are exclusive of any applicable taxes, which You are solely responsible to pay.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💰 Payment",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We reserve the right to adjust our pricing from time to time and at our sole discretion. In such event, prices will remain fixed during the term of your initial subscription, and adjusted fees will be applicable only after the term of your new subscription.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💰 Payment",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "The plan is billed in advance on a monthly basis, and usage based fees, which apply if you go over your allotted usage, will be billed as they go .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💰 Payment",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "💳 Payment is processed on the Website, which includes a third-party payment or credit card processor's services. The payment processor's or credit card company's agreement governs your use of the designated account or credit card you provide, and you must refer to that agreement and not these Terms to determine your rights and liabilities relating to such agreement, account and activities. By providing us with your account or credit card number and associated payment information, you agree that we are authorized to immediately invoice your account for all fees due and payable and that no additional notice or consent is required. You agree to immediately notify us of any change in your billing address or the account or credit card use for the payment. All fees are non-refundable and exclusive of any applicable taxes, which the Customer is solely responsible to pay. You will indemnify us for any taxes relating to your purchase or use of the Services, except for taxes relating to our income.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "For certain Services , the Service Fees and payment terms may be specified in the Supplemental Terms and/or in any other binding document signed between us, including but not limited to an Order Form, a Scope of Work, or a Master Service Agreement, which are fully incorporated into the Agreement between us.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Don't go! But if you do, here is what happens after termination.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "😔 Termination",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You may decide to cancel your Account whenever you want, at your sole discretion.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "😔 Termination",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We may do the same, and we reserve the right to suspend or terminate your access to the Services anytime with or without cause, and at our own discretion, with or without notice.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "😔 Termination",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Upon cancellation of your Account, we will use commercially reasonable efforts to delete your information and Content of your own Repositories, whether public or private, within 90 days. We will not delete the Content that you contributed to other Users' Repositories, or copies made by us or other Users.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "😔 Termination",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We also reserve the right to retain your information for legal or regulatory compliance, pursuant to standard archiving, recovery, and back-up processes and practices, and pursuant to our Privacy Policy.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "😔 Termination",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "For certain Services , the Service Term and causes for termination may be specified in the Supplemental Terms and/or in any other binding document signed between us, including but not limited to an Order Form, a Scope of Work, or a Master Service Agreement, which are fully incorporated into the Agreement between us.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "What is confidential, stays confidential.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🤐 Confidentiality",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "All information relating to these Terms and/or during negotiations before the execution of any binding document that we may share between us shall be treated as confidential (“Confidential Information”).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🤐 Confidentiality",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "During the Service Term , and for at least one (1) year thereafter, we expressly agree (i) to maintain the strict confidentiality of such Confidential Information, and to refrain from disclosing such Confidential Information to any third party, except as authorized by the original disclosing party in writing; (ii) to use such Confidential Information only for the purposes of performing its obligations or exercising its rights under this Agreement; and (iii) to use at least a reasonable standard of care in protecting the Confidential Information.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🤐 Confidentiality",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "These restrictions on the use or disclosure of Confidential Information shall not apply to any Confidential Information (i) which has been independently developed by the receiving Party, as evidenced by its written records, (ii) which has been lawfully received free of restriction from another source having the right to furnish such Confidential Information; or (iii) after it has become generally available to the public without breach of this section by the receiving Party; or (iv) which at the time of disclosure was already known to the receiving Party, and free of restriction as evidenced by documentation in such Party's possession; or (v) which the disclosing Party confirms in writing is free of such restrictions; or, (vi) which is required to be disclosed in any legal proceeding, upon express request from a governmental or regulatory agency, and/or pursuant to a requirement of law (and only with respect to such disclosure).",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🤐 Confidentiality",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Each of us may disclose Confidential Information only to our employees, agents or subcontractors who need it in order to exercise rights or perform obligations under the Agreement, and who are required to protect it against unauthorized disclosure or use in a manner no less protective than required under the Agreement.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🤐 Confidentiality",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Confidential Information is and shall at all times remain the exclusive property of the disclosing Party .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Upon termination or expiration of the Agreement, we ask you to promptly destroy or return all Confidential Information, and we will do the same if you ask us to do so.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Let's give credit where it is due, and protect our intellectual property rights!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💡 Intellectual Property",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Proprietary Rights . We retain ownership of all of our intellectual property rights related to the Website and the Services, including all improvements to the Services. All materials that we produce, including the Website, design, code, graphics, interfaces, trademarks, and logo shall remain our exclusive property. You may not alter, reproduce, republish, license any of our proprietary materials, unless we expressly give you a written permission to do so. All rights not expressly granted are reserved and retained by us.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💡 Intellectual Property",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Nothing in these Terms is intended to limit our use of our knowledge , skills, experience, ideas, concepts, know-how and/or techniques developed or learned at any time, without limitation. If you provide us feedback regarding the use, operation, performance, or functionality of our Website, Services, or business (collectively, \" Feedback \"), you hereby grant us a perpetual, irrevocable, worldwide, royalty-free, and non-exclusive right and license to exploit and commercialize the Feedback, improve the Services, and develop and/or commercialize new offerings, which we will solely and exclusively own. In addition and subject to our Privacy Policy, we may aggregate , anonymize, or otherwise learn from data relating to your use of the Services, and use the foregoing to improve those Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💡 Intellectual Property",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "DMCA Policy . We comply with the Digital Millennium Copyright Act Policy! If you have any claims that any content on our Website violates or infringes your intellectual property rights, you may send your complaint to dmca@huggingface.co with detailed and accurate information supporting your claim. You also represent and warrant that you will not knowingly provide misleading information to support your claim.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💡 Intellectual Property",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Open Source . Certain items provided with the Services may be subject to \"open source\" or \"creative commons\" or other similar licenses (collectively, \" Open Source \"). The Open Source license terms are not intended to be replaced or overridden by the license and other terms of these Terms; however, the limitations of liabilities, disclaimers, and this provision apply to any such Open Source. Nothing in these Terms limit your rights under, or grants you rights that supersede, the terms and conditions of any applicable Open Source license. If we (or you) make modifications to Open Source, and if the applicable Open Source requires that such modifications be made available, and we (or you) do not already publish such modifications via the applicable open source community, then modifications will be available on applicable websites.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "💡 Intellectual Property",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Supplemental Terms . Certain Services may be governed by specific intellectual property terms which are stated in the Supplemental Terms and/or in any other binding document signed between us, and which are fully incorporated into the Agreement between us.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Your privacy is paramount to us, and here is how we respect it.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "⛔ Privacy",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We will provide the Services in accordance with our Privacy Policy available at: https://huggingface.co/privacy .",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "⛔ Privacy",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Neither of us (or any of our affiliates, subsidiaries, contractors, licensors, officers, directors, agents, or employees (\"Related Parties\")) will be liable for any indirect, incidental, consequential, punitive, special, or other similar damages , including loss of revenue, profits, data, benefits, or savings, whether or not due to the fault or negligence of the company or related parties, and regardless of whether either of us or our related parties have been advised of the possibility of such damages or losses.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🎓 Liability",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Either Party’s (and each Related Party’s) aggregate liability to the other Party or any third party in any circumstance will not exceed the amount that you paid us during the 12-month period immediately preceding the last claim (or $50 if relating to a free service). This limitation will not apply to (i) either party’s liability from fraud, gross negligence, recklessness, or willful or criminal misconduct, (ii) your liability for infringement of our intellectual property rights, (iii) your liability for breach of the confidentiality section, or (iv) amounts you owe us for the service made available as per your payment obligations.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🎓 Liability",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You are solely and exclusively responsible for your use of the Services!",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍⚖️ Indemnity",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "In this regard, you agree to indemnify , defend and hold harmless us and Related Parties from all claims, liability, and expenses, including attorney's fees, arising out or in connection with your use of (or inability to use) the Services, including but not limited to your violation of these Terms, applicable law or regulation, any Content or data posted or used by you, or any other party's use of any Service with your credentials, unless arising directly from Hugging Face’s fraud, gross negligence, recklessness, or willful or criminal misconduct, provided that we provide you with (i) a prompt written notice of the claim, demand, suit or proceeding, (ii) sole control of the defense and settlement of the claim, demand, suit or proceeding, and (iii) all reasonable assistance and cooperation in connection with the defense and settlement of the claim, at its own expense.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "👩‍⚖️ Indemnity",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "There are certain promises that we cannot make...",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🙅‍♂️ Disclaimer of Warranties",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We provide Services that you may or may not decide to access, use or purchase. In this regard, we make no warranties or representations about these Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🙅‍♂️ Disclaimer of Warranties",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "In other words, except as expressly provided otherwise herein, and to the fullest extent permitted by law, the Services and Content are provided \" as is \" and \" as available \".",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🙅‍♂️ Disclaimer of Warranties",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We disclaim all warranties or guarantees of any kind, express or implied, whether arising under any law or from any usage in trade, or otherwise, including but not limited to the implied warranties of merchantability, non-infringement, quiet enjoyment, fitness for a particular purpose, or otherwise.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🙅‍♂️ Disclaimer of Warranties",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "We further disclaim all warranties or guarantees about the accuracy, reliability or benefits of any Services, artificial intelligence, Models or any other technology or Content, or that the Services or Content will meet your requirements, be secure, uninterrupted or available at any time or location, or error-free, viruses-free, or that any errors will be corrected, or otherwise.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "🙅‍♂️ Disclaimer of Warranties",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "You will be solely responsible for any damage resulting from your use of or access to the Services, your downloading of Content or data, or use of any other material provided by or through the Services.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Almost done! These are important legal terms that you should also read.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📃 Miscellaneous",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Governing law and dispute resolution . These Terms and all matters regarding their interpretation and/or enforcement are governed by the Law of the State of New York, excluding its choice of law rules. If a dispute or claim relating to these Terms arises, we each agree to make a reasonable and good faith effort to agree on an out-of-court solution and to resolve the dispute. If no out-of-court settlement is reached, any related action, lawsuit, or proceeding must be brought and adjudicated exclusively by state or federal courts located in the city of New York , United States of America. Any claim, action, suit or proceeding relating to these Terms must be brought by you within one year of the event that gave rise to the claim or such claim is hereby waived to the maximum extent permitted by law.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📃 Miscellaneous",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Assignment. We may assign or transfer all or part of our rights and obligations under these Terms to an affiliate, successor or any other entity or person without obtaining your prior written consent. Conversely, you may not assign or transfer all or part of your rights and obligations under Terms without obtaining our prior written consent.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📃 Miscellaneous",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Subcontracting. We may subcontract all or part of our obligations under these Terms at our own discretion, and without notifying you. Nothing to worry, since we will bear the same degree of responsibility for acts and omissions of the subcontractors acting on our behalf in the performance of their obligations under these Terms as they would bear if such acts and omissions were performed by us directly.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📃 Miscellaneous",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Changes in law or regulation . If there is any change in law or regulation that would materially restrict or prohibit our ability to provide the Services pursuant to these Terms, we may suspend or cancel the Services, or otherwise amend these Terms.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "📃 Miscellaneous",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Export Control and Sanctions . Any Service provided pursuant to these Terms may be subject to export control and sanctions laws of the U.S. and/or other applicable jurisdictions. Therefore, you may only access and use the Service in compliance with U.S. and other applicable export control and sanctions laws and regulations.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Headings . Headings used throughout these Terms are used for convenience and reference only, and have no legal effect , nor shall affect the interpretation of these Terms.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Entire Agreement . These Terms, together with all of the terms, policies and notices available at https://huggingface.co , or any other binding documents we provide, or agreements provided or executed by us, constitute the entire agreement between us, and supersedes all previous negotiations, proposals, commitments, writings, oral statement and understanding of any nature whatsoever. Any standard form purchase order or similar document you provided us or reference in any payment is expressly rejected if it differs from, or adds to, these Terms.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Order of Precedence . In the event of a conflict between provisions arising out of any documents included in the Agreement, the order of precedence will be as follows, unless expressly stated otherwise: (i) the applicable Order Form if any; (ii) the applicable Scope of Work if any; (iii) any other binding document signed between us; (iv) the Supplemental Terms; (v) these Terms of Service; (vi) all other documents or policies incorporated by reference in the Agreement.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Severability . If any provision of these Terms, by action of law or for any other reason, is held to be prohibited, invalid, void or unenforceable in any relevant jurisdiction, such provision will be stricken, and the remaining provisions of these Terms will remain in full force and effect.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "No Waiver . The failure, in one or more instances, to perform any of the terms or conditions of these Terms, or to exercise any right hereunder, shall not be construed as a waiver of the future performance of any such terms or conditions, or the future exercise of such right, and the obligations of under these Terms with respect to such performance shall continue in full force and effect.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Survival . The termination or expiration of these Terms shall not relieve from any obligation (i) that may have arisen prior to such termination or expiration, or (ii) that needs to survive termination or expiration in order to give full effect to its meaning, including without limitation payment obligations, confidentiality obligations, limitation of liability, warranty disclaimers, indemnities, governing law and dispute resolution, miscellaneous, and definitions.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "Execution . Each Party represents and warrants that (i) it possesses the legal right and capacity to enter into, execute, deliver and perform the Agreement; (ii) the individual signing the Agreement on the Party’s behalf has full power and authority to bind the Party to the terms and conditions set out in this Agreement; and (iii) the Agreement is a valid and binding obligation of that Party. You agree that an electronic signature shall have the same force and effect as manual signatures.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/terms-of-service",
+            "topic": "Terms of Service",
+            "page_number": 13
+        }
+    },
+    {
+        "content": "NVIDIA Enterprise company • 366 models • 26.5k followers",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/enterprise",
+            "topic": "NVIDIA",
+            "page_number": 14
+        }
+    },
+    {
+        "content": "ultra-fast video model, LTX 0.9.7 13B distilled",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/spaces",
+            "topic": "LTX Video Fast",
+            "page_number": 15
+        }
+    },
+    {
+        "content": "Host Git-based models, datasets, and Spaces on the HF Hub",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Hub & Client Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Python client to interact with the Hugging Face Hub",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Hub & Client Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "JavaScript libraries for Hugging Face with built-in TS types",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Hub & Client Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Explore demos, models, and datasets for any ML tasks",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Hub & Client Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "API for metadata, stats, and content of HF Hub datasets",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Hub & Client Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Call 200k+ models hosted by our 10+ Inference partners",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Deployment & Inference",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Deploy models on dedicated & fully managed infrastructure on HF",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Deployment & Inference",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Train/deploy Transformers models with SageMaker/HF DLCs",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Deployment & Inference",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Serve language models with TGI optimized toolkit",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Deployment & Inference",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Serve embeddings models with TEI optimized toolkit",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Deployment & Inference",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "State-of-the-art ML for PyTorch, TensorFlow, JAX",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "State-of-the-art Diffusion models in PyTorch",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Access & share datasets for any ML tasks",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "State-of-the-art ML running directly in your browser",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Fast tokenizers optimized for research & production",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Evaluate and compare models performance",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "State-of-the-art vision models: layers, optimizers, and utilities",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Core ML Libraries",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Parameter-efficient finetuning for large language models",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Train PyTorch models with multi-GPU, TPU, mixed precision",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Optimize HF Transformers for faster training/inference",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Train transformers LMs with reinforcement learning",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Safe way to store/distribute neural network weights",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Optimize and quantize models with bitsandbytes",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "All-in-one toolkit to evaluate LLMs across multiple backends",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Training & Optimization",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Build ML demos and web apps with a few lines of Python",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Smol library to build great agents in Python",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "AutoTrain API and UI for seamless model training",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Open source chat frontend powering HuggingChat",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Create custom Leaderboards on Hugging Face",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Collaboration tool for building high-quality datasets",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Framework for synthetic data generation and AI feedback",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/docs",
+            "topic": "Collaboration & Extras",
+            "page_number": 16
+        }
+    },
+    {
+        "content": "Yay! Organizations can now publish blog Articles Jan 21 • 44",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/huggingface",
+            "topic": "Yay! Organizations can now publish blog Articles",
+            "page_number": 17
+        }
+    },
+    {
+        "content": "Ashishkr/paraphrase_diversity_ranker Text Ranking • Updated 21 days ago • 9 • 2",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/Ashishkr",
+            "topic": "Ashishkr/paraphrase_diversity_ranker",
+            "page_number": 18
+        }
+    },
+    {
+        "content": "Don't have an account? Sign Up",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new",
+            "topic": "Log In",
+            "page_number": 19
+        }
+    },
+    {
+        "content": "SSO is available for Enterprise accounts.",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/new",
+            "topic": "Log In",
+            "page_number": 19
+        }
+    },
+    {
+        "content": "protectai/deberta-v3-base-prompt-injection Text Classification • Updated Apr 22, 2024 • 38k • 79",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/fka/awesome-chatgpt-prompts",
+            "topic": "protectai/deberta-v3-base-prompt-injection",
+            "page_number": 20
+        }
+    },
+    {
+        "content": "mradermacher/ChatWaifu_32B_reasoning-i1-GGUF Updated Apr 8 • 1.33k • 4",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/gretelai/synthetic_text_to_sql",
+            "topic": "mradermacher/ChatWaifu_32B_reasoning-i1-GGUF",
+            "page_number": 21
+        }
+    },
+    {
+        "content": "maxwellinked/maxwellinked Updated Dec 9, 2023",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+            "topic": "maxwellinked/maxwellinked",
+            "page_number": 22
+        }
+    },
+    {
+        "content": "arnir0/Tiny-LLM Text Generation • Updated Nov 3, 2024 • 102k • 14",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+            "topic": "arnir0/Tiny-LLM",
+            "page_number": 23
+        }
+    },
+    {
+        "content": "tokyotech-llm/Llama-3.1-8B-math-ablation-exp2-LR2.5e-5-WD0.1-iter0012500 Updated 15 days ago • 5",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/tokyotech-llm/swallow-math",
+            "topic": "tokyotech-llm/Llama-3.1-8B-math-ablation-exp2-LR2.5e-5-WD0.1-iter0012500",
+            "page_number": 24
+        }
+    },
+    {
+        "content": "prithivMLmods/Qwen2-VL-OCR-2B-Instruct Image-Text-to-Text • Updated 19 days ago • 63.2k • 70",
+        "meta_data": {
+            "web_site_name": "huggingface.co",
+            "web_page_url": "https://huggingface.co/datasets/linxy/LaTeX_OCR",
+            "topic": "prithivMLmods/Qwen2-VL-OCR-2B-Instruct",
+            "page_number": 25
+        }
+    }
+]

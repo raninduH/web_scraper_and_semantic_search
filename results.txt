@@ -1,0 +1,173 @@
+Query Log for: Whate are the Patronus evaluation tools designed to do
+Timestamp: Thu May 22 14:27:20 2025
+
+--- Initial Top 10 Results for Query: 'Whate are the Patronus evaluation tools designed to do' ---
+
+Rank 1 (Initial Retrieval):
+  ID: fb1d7a86-2493-4e6a-b8fe-9cd44a508cd6
+  Initial Score: 0.9479
+  Content: There are three main Patronus evaluation tools:
+  Metadata: {
+  "chunk_id": "16",
+  "content": "There are three main Patronus evaluation tools:",
+  "topic": "\u200bDescription",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 2 (Initial Retrieval):
+  ID: 041aae9d-a655-4cd4-86ab-4fed8a51f540
+  Initial Score: 0.9465
+  Content: Patronus Evaluation Tools
+  Metadata: {
+  "content": "Patronus Evaluation Tools",
+  "chunk_id": "14",
+  "topic": "\u200bPatronus Evaluation Tools",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 3 (Initial Retrieval):
+  ID: 352b8aa5-5c15-44cc-8365-be8efc72f36d
+  Initial Score: 0.9391
+  Content: To effectively use the Patronus evaluation tools, follow these steps:
+  Metadata: {
+  "chunk_id": "23",
+  "content": "To effectively use the Patronus evaluation tools, follow these steps:",
+  "topic": "\u200bSteps to Get Started",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 4 (Initial Retrieval):
+  ID: 80ea4814-0aa3-46b8-b996-aecb7db1bab5
+  Initial Score: 0.9255
+  Content: PatronusEvalTool
+  Metadata: {
+  "chunk_id": "37",
+  "content": "PatronusEvalTool",
+  "topic": "\u200bPatronus Evaluation Tools",
+  "document": "docs.crewai.com",
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "page_number": 5
+}
+--------------------
+
+Rank 5 (Initial Retrieval):
+  ID: 4421a3af-ec62-4c19-adbb-7e7707b38711
+  Initial Score: 0.9255
+  Content: PatronusEvalTool
+  Metadata: {
+  "chunk_id": "25",
+  "content": "PatronusEvalTool",
+  "topic": "\u200bPatronus Evaluation Tools",
+  "document": "docs.crewai.com",
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "page_number": 5
+}
+--------------------
+
+Rank 6 (Initial Retrieval):
+  ID: 5a58abba-2c52-483b-b065-d91d3b2a72ac
+  Initial Score: 0.9251
+  Content: The Patronus evaluation tools enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform.
+  Metadata: {
+  "content": "The Patronus evaluation tools enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform.",
+  "chunk_id": "13",
+  "topic": "Patronus Evaluation Tools",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 7 (Initial Retrieval):
+  ID: 11c91dc4-824a-46b2-93ff-6a28a105fc38
+  Initial Score: 0.9195
+  Content: The Patronus evaluation tools are designed to enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform. These tools provide different levels of control over the evaluation process, from allowing agents to select the most appropriate evaluator and criteria to using predefined criteria or custom local evaluators.
+  Metadata: {
+  "content": "The Patronus evaluation tools are designed to enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform. These tools provide different levels of control over the evaluation process, from allowing agents to select the most appropriate evaluator and criteria to using predefined criteria or custom local evaluators.",
+  "chunk_id": "15",
+  "topic": "\u200bDescription",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 8 (Initial Retrieval):
+  ID: d922ce8d-9e5f-4b71-a291-03350e160c73
+  Initial Score: 0.9115
+  Content: The PatronusEvalTool does not require any parameters during initialization. It automatically fetches available evaluators and criteria from the Patronus API.
+  Metadata: {
+  "content": "The PatronusEvalTool does not require any parameters during initialization. It automatically fetches available evaluators and criteria from the Patronus API.",
+  "chunk_id": "36",
+  "topic": "\u200bPatronusEvalTool",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 9 (Initial Retrieval):
+  ID: 0ea55720-10f2-4eb7-a34d-0647acf434d1
+  Initial Score: 0.9104
+  Content: The following example demonstrates how to use the PatronusEvalTool , which allows agents to select the most appropriate evaluator and criteria:
+  Metadata: {
+  "content": "The following example demonstrates how to use the PatronusEvalTool , which allows agents to select the most appropriate evaluator and criteria:",
+  "chunk_id": "24",
+  "topic": "\u200bUsing PatronusEvalTool",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+
+Rank 10 (Initial Retrieval):
+  ID: 19677e68-98e1-4c56-9d0c-7c0e6168b901
+  Initial Score: 0.9060
+  Content: PatronusLocalEvaluatorTool
+  Metadata: {
+  "content": "PatronusLocalEvaluatorTool",
+  "chunk_id": "42",
+  "topic": "\u200bPatronus Evaluation Tools",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}
+--------------------
+\n\n--- Top 4 Reranked Results (out of initial 10) for Query: 'Whate are the Patronus evaluation tools designed to do' ---\n\nRank 1 (Reranked):\n  ID: 11c91dc4-824a-46b2-93ff-6a28a105fc38\n  Rerank Score: 0.8817\n  Original Initial Rank: 7\n  Original Initial Score: 0.9195\n  Content: The Patronus evaluation tools are designed to enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform. These tools provide different levels of control over the evaluation process, from allowing agents to select the most appropriate evaluator and criteria to using predefined criteria or custom local evaluators.\n  Full Metadata: {
+  "content": "The Patronus evaluation tools are designed to enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform. These tools provide different levels of control over the evaluation process, from allowing agents to select the most appropriate evaluator and criteria to using predefined criteria or custom local evaluators.",
+  "chunk_id": "15",
+  "topic": "\u200bDescription",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}\n--------------------\n\nRank 2 (Reranked):\n  ID: 5a58abba-2c52-483b-b065-d91d3b2a72ac\n  Rerank Score: 0.3153\n  Original Initial Rank: 6\n  Original Initial Score: 0.9251\n  Content: The Patronus evaluation tools enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform.\n  Full Metadata: {
+  "content": "The Patronus evaluation tools enable CrewAI agents to evaluate and score model inputs and outputs using the Patronus AI platform.",
+  "chunk_id": "13",
+  "topic": "Patronus Evaluation Tools",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}\n--------------------\n\nRank 3 (Reranked):\n  ID: d922ce8d-9e5f-4b71-a291-03350e160c73\n  Rerank Score: 0.0307\n  Original Initial Rank: 8\n  Original Initial Score: 0.9115\n  Content: The PatronusEvalTool does not require any parameters during initialization. It automatically fetches available evaluators and criteria from the Patronus API.\n  Full Metadata: {
+  "content": "The PatronusEvalTool does not require any parameters during initialization. It automatically fetches available evaluators and criteria from the Patronus API.",
+  "chunk_id": "36",
+  "topic": "\u200bPatronusEvalTool",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}\n--------------------\n\nRank 4 (Reranked):\n  ID: fb1d7a86-2493-4e6a-b8fe-9cd44a508cd6\n  Rerank Score: 0.0063\n  Original Initial Rank: 1\n  Original Initial Score: 0.9479\n  Content: There are three main Patronus evaluation tools:\n  Full Metadata: {
+  "chunk_id": "16",
+  "content": "There are three main Patronus evaluation tools:",
+  "topic": "\u200bDescription",
+  "page_number": 5,
+  "web_page_url": "https://docs.crewai.com/tools/patronustools",
+  "document": "docs.crewai.com"
+}\n--------------------\n

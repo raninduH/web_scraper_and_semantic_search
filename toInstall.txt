@@ -1,0 +1,1 @@
+pip install selenium beautifulsoup4 weaviate-client sentence-transformers huggingface-hub
